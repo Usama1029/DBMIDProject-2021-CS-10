@@ -1,0 +1,5 @@
+studentattendance table contain foreign key from classattendance and from lookup table . from lookup table we can match the attendance status.
+in student table id is used as foreign key from lookup and studentattendance table and from lookup table after match the status name evalutae the lookup valueand from attendance table find the studnet attendance.
+clo table generate the clos and its primary key used foreign key in rubric table which add the rubric on clos after compare with forein key.
+rubriclevel table contain foreign key from rubric and measure the level of student on basis of rubric.
+assessmentcomponent used foreign key from assessment and rubric table which add the marks for the student and studentresult table used foreign key from student and rubriclevel and assessment table and generate the result for studnt and evaluate him.
