@@ -16,8 +16,8 @@ namespace DBLabProjectMID
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-           // Application.Run(new Form321());
-            Application.Run(new clo());
+            Application.Run(new Form321());
+           // Application.Run(new clo());
         }
     }
 }

@@ -28,6 +28,17 @@ namespace DBLabProjectMID
         {
 
         }
-            
+
+        private void btnAddAttendance_Click(object sender, EventArgs e)
+        {
+            attendanceform form = new attendanceform(dtpick.Value);
+            this.Close();
+            form.ShowDialog();
+        }
+
+        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

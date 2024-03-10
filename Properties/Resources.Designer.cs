@@ -63,6 +63,16 @@ namespace DBLabProjectMID.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_cancel_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-cancel-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_delete_32 {
             get {
                 object obj = ResourceManager.GetObject("icons8-delete-32", resourceCulture);
@@ -76,6 +86,36 @@ namespace DBLabProjectMID.Properties {
         internal static System.Drawing.Bitmap icons8_edit_16 {
             get {
                 object obj = ResourceManager.GetObject("icons8-edit-16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_edit_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-edit-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_eye_16 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-eye-16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_open_book_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-open-book-32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -176,7 +176,7 @@ namespace DBLabProjectMID
             this.firstNametxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.firstNametxt.Depth = 0;
             this.firstNametxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.firstNametxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.firstNametxt.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.firstNametxt.Hint = "First Name";
             this.firstNametxt.LeadingIcon = null;
             this.firstNametxt.LeaveOnEnterKey = true;
@@ -197,7 +197,7 @@ namespace DBLabProjectMID
             this.regNotxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.regNotxt.Depth = 0;
             this.regNotxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.regNotxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.regNotxt.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.regNotxt.Hint = "Registration No.";
             this.regNotxt.LeadingIcon = null;
             this.regNotxt.LeaveOnEnterKey = true;
@@ -218,7 +218,7 @@ namespace DBLabProjectMID
             this.lastNametxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lastNametxt.Depth = 0;
             this.lastNametxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lastNametxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.lastNametxt.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.lastNametxt.Hint = "Last Name";
             this.lastNametxt.LeadingIcon = null;
             this.lastNametxt.LeaveOnEnterKey = true;
@@ -239,7 +239,7 @@ namespace DBLabProjectMID
             this.emailtxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.emailtxt.Depth = 0;
             this.emailtxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.emailtxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.emailtxt.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.emailtxt.Hint = "Email";
             this.emailtxt.LeadingIcon = null;
             this.emailtxt.LeaveOnEnterKey = true;
@@ -260,7 +260,7 @@ namespace DBLabProjectMID
             this.contacttxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.contacttxt.Depth = 0;
             this.contacttxt.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.contacttxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.contacttxt.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.contacttxt.Hint = "Contact No.";
             this.contacttxt.LeadingIcon = null;
             this.contacttxt.LeaveOnEnterKey = true;

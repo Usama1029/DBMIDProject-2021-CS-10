@@ -94,6 +94,7 @@ namespace DBLabProjectMID
             this.lblCLOCount = new MaterialSkin.Controls.MaterialLabel();
             this.materialCard2 = new MaterialSkin.Controls.MaterialCard();
             this.tabPageHome = new System.Windows.Forms.TabPage();
+            this.materialLabel13 = new MaterialSkin.Controls.MaterialLabel();
             this.materialTabControl2 = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPageCLO = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
@@ -110,7 +111,6 @@ namespace DBLabProjectMID
             this.materialCard5 = new MaterialSkin.Controls.MaterialCard();
             this.cbCLOs = new MaterialSkin.Controls.MaterialComboBox();
             this.dgvRubric = new System.Windows.Forms.DataGridView();
-            this.materialLabel13 = new MaterialSkin.Controls.MaterialLabel();
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewImageColumn3 = new System.Windows.Forms.DataGridViewImageColumn();
@@ -1022,6 +1022,7 @@ namespace DBLabProjectMID
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 65F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(1203, 548);
             this.tableLayoutPanel2.TabIndex = 0;
+            this.tableLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel2_Paint);
             // 
             // dtpick
             // 
@@ -1294,6 +1295,24 @@ namespace DBLabProjectMID
             this.tabPageHome.TabIndex = 0;
             this.tabPageHome.Text = "Home";
             // 
+            // materialLabel13
+            // 
+            this.materialLabel13.AutoSize = true;
+            this.materialLabel13.Depth = 0;
+            this.materialLabel13.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel13.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
+            this.materialLabel13.HighEmphasis = true;
+            this.materialLabel13.Location = new System.Drawing.Point(557, 265);
+            this.materialLabel13.Margin = new System.Windows.Forms.Padding(8, 0, 4, 0);
+            this.materialLabel13.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel13.Name = "materialLabel13";
+            this.materialLabel13.Size = new System.Drawing.Size(96, 29);
+            this.materialLabel13.TabIndex = 5;
+            this.materialLabel13.Text = "Students";
+            this.materialLabel13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.materialLabel13.UseAccent = true;
+            this.materialLabel13.UseMnemonic = false;
+            // 
             // materialTabControl2
             // 
             this.materialTabControl2.Controls.Add(this.tabPageHome);
@@ -1372,7 +1391,7 @@ namespace DBLabProjectMID
             this.tableLayoutPanel5.ColumnCount = 3;
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 65.97222F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.02778F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 210F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 217F));
             this.tableLayoutPanel5.Controls.Add(this.txtCLO, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.btnAddCLO, 1, 0);
             this.tableLayoutPanel5.Controls.Add(this.btnCancel, 2, 0);
@@ -1585,24 +1604,6 @@ namespace DBLabProjectMID
             this.dgvRubric.RowHeadersWidth = 62;
             this.dgvRubric.Size = new System.Drawing.Size(1203, 305);
             this.dgvRubric.TabIndex = 1;
-            // 
-            // materialLabel13
-            // 
-            this.materialLabel13.AutoSize = true;
-            this.materialLabel13.Depth = 0;
-            this.materialLabel13.Font = new System.Drawing.Font("Roboto", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel13.FontType = MaterialSkin.MaterialSkinManager.fontType.H5;
-            this.materialLabel13.HighEmphasis = true;
-            this.materialLabel13.Location = new System.Drawing.Point(557, 265);
-            this.materialLabel13.Margin = new System.Windows.Forms.Padding(8, 0, 4, 0);
-            this.materialLabel13.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel13.Name = "materialLabel13";
-            this.materialLabel13.Size = new System.Drawing.Size(96, 29);
-            this.materialLabel13.TabIndex = 5;
-            this.materialLabel13.Text = "Students";
-            this.materialLabel13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.materialLabel13.UseAccent = true;
-            this.materialLabel13.UseMnemonic = false;
             // 
             // dataGridViewImageColumn1
             // 
@@ -1831,6 +1832,7 @@ namespace DBLabProjectMID
             this.btnAddAttendance.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.btnAddAttendance.UseAccentColor = false;
             this.btnAddAttendance.UseVisualStyleBackColor = true;
+            this.btnAddAttendance.Click += new System.EventHandler(this.btnAddAttendance_Click);
             // 
             // txtCLO
             // 
@@ -1847,7 +1849,7 @@ namespace DBLabProjectMID
             this.txtCLO.MouseState = MaterialSkin.MouseState.OUT;
             this.txtCLO.Multiline = false;
             this.txtCLO.Name = "txtCLO";
-            this.txtCLO.Size = new System.Drawing.Size(362, 50);
+            this.txtCLO.Size = new System.Drawing.Size(358, 50);
             this.txtCLO.TabIndex = 1;
             this.txtCLO.Text = "";
             this.txtCLO.TrailingIcon = ((System.Drawing.Image)(resources.GetObject("txtCLO.TrailingIcon")));
@@ -1860,7 +1862,7 @@ namespace DBLabProjectMID
             this.btnAddCLO.Depth = 0;
             this.btnAddCLO.HighEmphasis = true;
             this.btnAddCLO.Icon = ((System.Drawing.Image)(resources.GetObject("btnAddCLO.Icon")));
-            this.btnAddCLO.Location = new System.Drawing.Point(477, 9);
+            this.btnAddCLO.Location = new System.Drawing.Point(470, 9);
             this.btnAddCLO.Margin = new System.Windows.Forms.Padding(6, 9, 6, 9);
             this.btnAddCLO.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnAddCLO.Name = "btnAddCLO";

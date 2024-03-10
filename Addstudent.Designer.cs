@@ -53,7 +53,7 @@ namespace DBLabProjectMID
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.33735F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75.66265F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 463F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 124F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 130F));
             this.tableLayoutPanel1.Controls.Add(this.firstnameLabel1, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.firstnameTextBox1, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.lastnameLabel1, 1, 1);
@@ -89,11 +89,11 @@ namespace DBLabProjectMID
             this.firstnameLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.firstnameLabel1.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.firstnameLabel1.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.firstnameLabel1.Location = new System.Drawing.Point(76, 5);
+            this.firstnameLabel1.Location = new System.Drawing.Point(75, 5);
             this.firstnameLabel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.firstnameLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.firstnameLabel1.Name = "firstnameLabel1";
-            this.firstnameLabel1.Size = new System.Drawing.Size(217, 47);
+            this.firstnameLabel1.Size = new System.Drawing.Size(212, 47);
             this.firstnameLabel1.TabIndex = 0;
             this.firstnameLabel1.Text = "First Name:";
             this.firstnameLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -107,7 +107,7 @@ namespace DBLabProjectMID
             this.firstnameTextBox1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.firstnameTextBox1.Hint = "First Name";
             this.firstnameTextBox1.LeadingIcon = null;
-            this.firstnameTextBox1.Location = new System.Drawing.Point(301, 5);
+            this.firstnameTextBox1.Location = new System.Drawing.Point(295, 5);
             this.firstnameTextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 6);
             this.firstnameTextBox1.MaxLength = 50;
             this.firstnameTextBox1.MouseState = MaterialSkin.MouseState.OUT;
@@ -125,10 +125,10 @@ namespace DBLabProjectMID
             this.lastnameLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lastnameLabel1.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.lastnameLabel1.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.lastnameLabel1.Location = new System.Drawing.Point(75, 57);
+            this.lastnameLabel1.Location = new System.Drawing.Point(74, 57);
             this.lastnameLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.lastnameLabel1.Name = "lastnameLabel1";
-            this.lastnameLabel1.Size = new System.Drawing.Size(219, 69);
+            this.lastnameLabel1.Size = new System.Drawing.Size(214, 69);
             this.lastnameLabel1.TabIndex = 2;
             this.lastnameLabel1.Text = "Last Name:";
             this.lastnameLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -142,7 +142,7 @@ namespace DBLabProjectMID
             this.lastnameTextBox1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.lastnameTextBox1.Hint = "Last Name";
             this.lastnameTextBox1.LeadingIcon = null;
-            this.lastnameTextBox1.Location = new System.Drawing.Point(301, 62);
+            this.lastnameTextBox1.Location = new System.Drawing.Point(295, 62);
             this.lastnameTextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 6);
             this.lastnameTextBox1.MaxLength = 50;
             this.lastnameTextBox1.MouseState = MaterialSkin.MouseState.OUT;
@@ -162,7 +162,7 @@ namespace DBLabProjectMID
             this.regnoTextBox1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.regnoTextBox1.Hint = "Registration Number";
             this.regnoTextBox1.LeadingIcon = null;
-            this.regnoTextBox1.Location = new System.Drawing.Point(301, 131);
+            this.regnoTextBox1.Location = new System.Drawing.Point(295, 131);
             this.regnoTextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 6);
             this.regnoTextBox1.MaxLength = 50;
             this.regnoTextBox1.MouseState = MaterialSkin.MouseState.OUT;
@@ -182,7 +182,7 @@ namespace DBLabProjectMID
             this.contactTextBox2.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.contactTextBox2.Hint = "Contact Number";
             this.contactTextBox2.LeadingIcon = null;
-            this.contactTextBox2.Location = new System.Drawing.Point(302, 195);
+            this.contactTextBox2.Location = new System.Drawing.Point(296, 195);
             this.contactTextBox2.Margin = new System.Windows.Forms.Padding(5);
             this.contactTextBox2.MaxLength = 50;
             this.contactTextBox2.MouseState = MaterialSkin.MouseState.OUT;
@@ -202,7 +202,7 @@ namespace DBLabProjectMID
             this.EmailTextBox3.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.EmailTextBox3.Hint = "Email";
             this.EmailTextBox3.LeadingIcon = null;
-            this.EmailTextBox3.Location = new System.Drawing.Point(302, 259);
+            this.EmailTextBox3.Location = new System.Drawing.Point(296, 259);
             this.EmailTextBox3.Margin = new System.Windows.Forms.Padding(5);
             this.EmailTextBox3.MaxLength = 50;
             this.EmailTextBox3.MouseState = MaterialSkin.MouseState.OUT;
@@ -223,7 +223,7 @@ namespace DBLabProjectMID
             this.STATUSComboBox1.DropDownHeight = 174;
             this.STATUSComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.STATUSComboBox1.DropDownWidth = 121;
-            this.STATUSComboBox1.Font = new System.Drawing.Font("Roboto Medium", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.STATUSComboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.STATUSComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.STATUSComboBox1.FormattingEnabled = true;
             this.STATUSComboBox1.IntegralHeight = false;
@@ -231,7 +231,7 @@ namespace DBLabProjectMID
             this.STATUSComboBox1.Items.AddRange(new object[] {
             "Active",
             "InActive"});
-            this.STATUSComboBox1.Location = new System.Drawing.Point(300, 330);
+            this.STATUSComboBox1.Location = new System.Drawing.Point(294, 330);
             this.STATUSComboBox1.MaxDropDownItems = 4;
             this.STATUSComboBox1.MouseState = MaterialSkin.MouseState.OUT;
             this.STATUSComboBox1.Name = "STATUSComboBox1";
@@ -246,10 +246,10 @@ namespace DBLabProjectMID
             this.regnoLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.regnoLabel1.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.regnoLabel1.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.regnoLabel1.Location = new System.Drawing.Point(75, 126);
+            this.regnoLabel1.Location = new System.Drawing.Point(74, 126);
             this.regnoLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.regnoLabel1.Name = "regnoLabel1";
-            this.regnoLabel1.Size = new System.Drawing.Size(219, 64);
+            this.regnoLabel1.Size = new System.Drawing.Size(214, 64);
             this.regnoLabel1.TabIndex = 8;
             this.regnoLabel1.Text = "Registration Number:";
             this.regnoLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -261,10 +261,10 @@ namespace DBLabProjectMID
             this.contactLabel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.contactLabel2.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.contactLabel2.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.contactLabel2.Location = new System.Drawing.Point(75, 190);
+            this.contactLabel2.Location = new System.Drawing.Point(74, 190);
             this.contactLabel2.MouseState = MaterialSkin.MouseState.HOVER;
             this.contactLabel2.Name = "contactLabel2";
-            this.contactLabel2.Size = new System.Drawing.Size(219, 64);
+            this.contactLabel2.Size = new System.Drawing.Size(214, 64);
             this.contactLabel2.TabIndex = 9;
             this.contactLabel2.Text = "Contact Number:";
             // 
@@ -275,10 +275,10 @@ namespace DBLabProjectMID
             this.emailLabel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.emailLabel3.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.emailLabel3.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.emailLabel3.Location = new System.Drawing.Point(75, 254);
+            this.emailLabel3.Location = new System.Drawing.Point(74, 254);
             this.emailLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.emailLabel3.Name = "emailLabel3";
-            this.emailLabel3.Size = new System.Drawing.Size(219, 73);
+            this.emailLabel3.Size = new System.Drawing.Size(214, 73);
             this.emailLabel3.TabIndex = 10;
             this.emailLabel3.Text = "Email:";
             this.emailLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -290,10 +290,10 @@ namespace DBLabProjectMID
             this.statusLabel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.statusLabel4.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.statusLabel4.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.statusLabel4.Location = new System.Drawing.Point(75, 327);
+            this.statusLabel4.Location = new System.Drawing.Point(74, 327);
             this.statusLabel4.MouseState = MaterialSkin.MouseState.HOVER;
             this.statusLabel4.Name = "statusLabel4";
-            this.statusLabel4.Size = new System.Drawing.Size(219, 85);
+            this.statusLabel4.Size = new System.Drawing.Size(214, 85);
             this.statusLabel4.TabIndex = 11;
             this.statusLabel4.Text = "Status:";
             this.statusLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -306,7 +306,7 @@ namespace DBLabProjectMID
             this.saveButton1.Depth = 0;
             this.saveButton1.HighEmphasis = true;
             this.saveButton1.Icon = null;
-            this.saveButton1.Location = new System.Drawing.Point(692, 418);
+            this.saveButton1.Location = new System.Drawing.Point(686, 418);
             this.saveButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.saveButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.saveButton1.Name = "saveButton1";
@@ -327,7 +327,7 @@ namespace DBLabProjectMID
             this.cancelButton2.Depth = 0;
             this.cancelButton2.HighEmphasis = true;
             this.cancelButton2.Icon = null;
-            this.cancelButton2.Location = new System.Drawing.Point(216, 418);
+            this.cancelButton2.Location = new System.Drawing.Point(210, 418);
             this.cancelButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.cancelButton2.MouseState = MaterialSkin.MouseState.HOVER;
             this.cancelButton2.Name = "cancelButton2";
