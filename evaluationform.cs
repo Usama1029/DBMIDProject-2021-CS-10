@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DBLabProjectMID
 {
-    public partial class attendanceformforatt : Form
+    public partial class evaluationform : Form
     {
-        public attendanceformforatt()
+        public evaluationform()
         {
             InitializeComponent();
         }
